@@ -37,10 +37,10 @@ func (pb PhoneBuilder) GetPhone() Phone {
 	return pb.Phone
 }
 
-func main() {
+// func main() {
 
-	androidPhoneBuilder := new(PhoneBuilder)
-	myPhone := androidPhoneBuilder.setBattery(2000).setOS("Android 10").setSceenSize(5).getPhone()
-	fmt.Println(myPhone.getSpec())
+// 	androidPhoneBuilder := new(PhoneBuilder)
+// 	myPhone := androidPhoneBuilder.setBattery(2000).setOS("Android 10").setSceenSize(5).getPhone()
+// 	fmt.Println(myPhone.getSpec())
 
-}
+// }
